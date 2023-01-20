@@ -27,7 +27,7 @@ while [ $pos -ge 0 ];do
 	prev=$factor 
 	pos=`expr $pos - 1`
 done
-echo "El numero $1 en decimal és: $result"
+echo "El numero romà $1 en decimal és: $result"
  elif [[ $num =~ ^[0-9]+$ ]]; then
   if [[ $num -lt 1 || $num -gt 1999 ]]; then
     echo "El número té que ser de l´1 fins al 1999"
